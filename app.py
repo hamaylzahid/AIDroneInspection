@@ -5,6 +5,8 @@ import cv2
 import pandas as pd
 import numpy as np
 import time
+import os
+import gdown
 
 # ---------------------------
 # CONFIG
@@ -26,7 +28,13 @@ st.sidebar.title("🚁 Drone Mission Control")
 CONFIDENCE = st.sidebar.slider("Detection Sensitivity", 0.1, 1.0, 0.3)
 SHOW_LABELS = st.sidebar.checkbox("Show Labels", True)
 
-MODEL_PATH = r"C:\Users\PMYLS\Downloads\best (2).pt"  # Update your model path
+
+MODEL_PATH = "best.pt"
+
+# Download model if not exists
+if not os.path.exists(MODEL_PATH):
+    url = "https://drive.google.com/uc?id=1REzoCDWIqbwcEjYBVno8CggxOwd43tlp"
+    gdown.download(url, MODEL_PATH, quiet=False)
 
 # ---------------------------
 # HEADER
