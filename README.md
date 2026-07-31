@@ -6,7 +6,7 @@
 <br>
 
 <p align="center">
-  <a href="https://aidroneinspection-fxwvr89b8uikxghshywfzj.streamlit.app/" target="_blank">
+  <a href="https://drone-infrastructure-inspection-ai.streamlit.app/" target="_blank">
     <img src="https://img.shields.io/badge/Launch_Live_Demo-Streamlit-orange?style=for-the-badge&logo=streamlit" />
   </a>
 </p>
