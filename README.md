@@ -16,13 +16,6 @@ The system leverages deep learning to identify cracks, potholes, and rust with h
 </p>
 
 
-<br>
-<h2 id="demo" align="center">Demo</h2>
-<br>
-
-<p align="center">
-<img src="outputs/output_inspection.gif" alt="Demo Preview" width="600"/>
-</p>
 
 
 <br>
