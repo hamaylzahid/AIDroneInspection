@@ -3,7 +3,7 @@
 <br>
 <br>
 <h2 id="deployment" align="center">Deployment</h2>
-<br>
+<br><br>
 
 <p align="center">
   <a href="https://drone-infrastructure-inspection-ai.streamlit.app/" target="_blank">
